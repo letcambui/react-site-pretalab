@@ -1,7 +1,11 @@
 import { useState } from 'react'
 import { Header } from '../components/Header' 
 import imgContato from '../assets/imgContato.svg'
+import { database } from '../services/firebase'
+import { ref, push, set } from 'firebase/database'
+
 import styles from '../styles/pages/contato.module.css'
+
 
 export function Contato() {
     const [nome, setNome ] = useState ('')
@@ -21,9 +25,19 @@ export function Contato() {
 
     function createMessage(event) {
         event.preventDefault()
-        console.log('nome', nome)
-        console.log('email', email)
-        console.log('mensagem', mensagem)
+
+        const mensagensListRef = ref(database, 'mensagens')
+
+        const novaMensagemRef = push(mensagensListRef)
+
+        set(novaMensagemRef,
+            {
+                nome: nome,
+                email: email,
+                texto: mensagem
+
+            })
+        
 
         setNome ('')
         setEmail('')
