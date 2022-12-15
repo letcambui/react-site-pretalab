@@ -1,0 +1,14 @@
+.githubContainer {
+    padding: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    text-align: center;
+  }
+
+  .githubList {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
