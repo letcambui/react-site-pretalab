@@ -1,6 +1,4 @@
-# react-site-pretalab
-projeto final do curso pretalab
-# 🧠 Contexto
+# Projeto final Pretalab
 
 O objetivo era criar um site usando ReactJS, onde eu pudesse me apresentar e enriquecer o meu portfólio.
 
