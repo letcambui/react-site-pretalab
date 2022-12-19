@@ -11,8 +11,8 @@ export function Inicio() {
         <div className={styles.homeContainer}>
             <div className={styles.cardContainer}>
                 <Butterfly size={150} color="#6bb0c9" weight="thin" />
-                <h2 className={styles.cardTitle}>Lore impsum</h2>
-                <p className={styles.cardText}>LOREM IMPSUMMMM LOREM IMPSUMMMM LOREM IMPSUMMMM LOREM IMPSUMMMM</p>
+                <h2 className={styles.cardTitle}>Vida</h2>
+                <p className={styles.cardText}>Aqui você poderá conhecer um pouqinho de mim</p>
             </div>
             <div className={styles.cardContainer}>
                 <BracketsCurly size={150} color="#6bb0c9" weight="thin"/>
