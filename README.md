@@ -18,3 +18,5 @@ O objetivo era criar um site usando ReactJS, onde eu pudesse me apresentar e enr
 | `Axios` | Dependência para consumir api|
 | `Vercel` | Hospedagem para a aplicação, fiz o deploy integrado com o github|
 | `Github` | Hospedagem do código fonte integrado com gerenciador de versionamento|
+
+ <a href="https://react-site-pretalab.vercel.app/" target="_blank">Clique aqui para visitar meu site </a>
