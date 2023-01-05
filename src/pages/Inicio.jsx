@@ -15,10 +15,6 @@ export function Inicio() {
 
                 <p className={styles.cardText}>Aqui você terá a oportunidade de me conhecer melhor. Falo um pouco sobre a minha trajetória e gostos pessoais.</p>
 
-                <p className={styles.cardText}>Aqui você poderá conhecer um pouqinho de mim</p>
-
-                <p className={styles.cardText}>Aqui você poderá conhecer um pouqinho de mim</p>
-
             </div>
             <div className={styles.cardContainer}>
                 <BracketsCurly size={150} color="#6bb0c9" weight="thin"/>
