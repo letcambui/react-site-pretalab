@@ -12,11 +12,13 @@ export function Inicio() {
             <div className={styles.cardContainer}>
                 <Butterfly size={150} color="#6bb0c9" weight="thin" />
                 <h2 className={styles.cardTitle}>Vida</h2>
-<<<<<<< HEAD
+
                 <p className={styles.cardText}>Aqui você terá a oportunidade de me conhecer melhor. Falo um pouco sobre a minha trajetória e gostos pessoais.</p>
-=======
+
                 <p className={styles.cardText}>Aqui você poderá conhecer um pouqinho de mim</p>
->>>>>>> d2ce18c044402f44077662d76b6a2285706f3f75
+
+                <p className={styles.cardText}>Aqui você poderá conhecer um pouqinho de mim</p>
+
             </div>
             <div className={styles.cardContainer}>
                 <BracketsCurly size={150} color="#6bb0c9" weight="thin"/>
