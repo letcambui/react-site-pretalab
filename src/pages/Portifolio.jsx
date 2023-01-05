@@ -1,5 +1,5 @@
 import { Header } from '../components/Header' 
-import imgPortifolio from '../assets/imgPortifolio.svg'
+import imgPortifolio from '../assets/imgPortifolio1.svg'
 import { Github } from './Github'
 
 export function Portifolio() {

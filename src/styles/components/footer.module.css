@@ -11,3 +11,13 @@
     color: #f3e2c8ff;
     font-size: 1rem;
 }
+
+a{
+    color:#f3e2c8ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+   }

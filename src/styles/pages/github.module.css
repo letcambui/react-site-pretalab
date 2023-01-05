@@ -10,5 +10,27 @@
   .githubList {
     list-style: none;
     display: flex;
+    justify-content: space-around;
     align-items: center;
+  }
+
+  .githubListItem {
+    padding: 3rem;
+    margin-left: 10px;
+    background-color: #f3e2c8ff;
+    border-radius: 7%;
+
+    
+  }
+
+  .githubLink {
+    text-decoration: none;
+    color: black;
+    padding-top: 30px;
+  }
+
+  .githubName {
+    color: blue;
+    margin-bottom: 15px;
+
   }

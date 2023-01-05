@@ -11,8 +11,8 @@ export function Inicio() {
         <div className={styles.homeContainer}>
             <div className={styles.cardContainer}>
                 <Butterfly size={150} color="#6bb0c9" weight="thin" />
-                <h2 className={styles.cardTitle}>Lore impsum</h2>
-                <p className={styles.cardText}>LOREM IMPSUMMMM LOREM IMPSUMMMM LOREM IMPSUMMMM LOREM IMPSUMMMM</p>
+                <h2 className={styles.cardTitle}>Vida</h2>
+                <p className={styles.cardText}>Aqui você terá a oportunidade de me conhecer melhor. Falo um pouco sobre a minha trajetória e gostos pessoais.</p>
             </div>
             <div className={styles.cardContainer}>
                 <BracketsCurly size={150} color="#6bb0c9" weight="thin"/>
@@ -21,8 +21,8 @@ export function Inicio() {
       </div>
       <div className={styles.cardContainer}>
             <AddressBook size={150} color="#6bb0c9" weight="thin"/>
-            <h2 className={styles.cardTitle}>Contatinho</h2>
-            <p className={styles.cardText}>Entre em contato comigo. Seja para entrevistas de emprego como deva ou para trocarmos ideias sobre os estudos.</p>
+            <h2 className={styles.cardTitle}>Contato</h2>
+            <p className={styles.cardText}>Esse espacinho foi criado para você me contatar. Seja para emprego, conversar sobre programação ou qualquer outra coisa relacionada.</p>
          </div>
         </div>
         </>

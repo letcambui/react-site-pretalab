@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Header } from '../components/Header' 
-import imgContato from '../assets/imgContato.svg'
+import imgContato from '../assets/imgContato1.svg'
 import { database } from '../services/firebase'
 import { ref, push, set } from 'firebase/database'
 
@@ -46,7 +46,7 @@ export function Contato() {
     }
     return (
         <>
-        <Header text="contato" image={imgContato} />
+        <Header text="Fale comigo " image={imgContato} />
         <div className={styles.formContainer}>
             <form onSubmit={createMessage} className={styles.form}>
                 <input onChange={handleInputName} placeholder='Digite seu nome' className={styles.formInput} value={nome} type="text" />
